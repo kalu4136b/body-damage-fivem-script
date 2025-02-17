@@ -12,16 +12,16 @@ local bodyParts = {
     RIGHT_LEG = 51826
 }
 
--- Define additional damage multipliers for body parts
+-- Define additional damage multipliers for body parts(you can edit this)
 local damageMultipliers = {
-    [bodyParts.HEAD] = 2.0, -- Double damage for headshots
-    [bodyParts.NECK] = 1.5,
-    [bodyParts.UPPER_BODY] = 1.2,
-    [bodyParts.LOWER_BODY] = 1.0,
-    [bodyParts.LEFT_ARM] = 0.8,
-    [bodyParts.RIGHT_ARM] = 0.8,
-    [bodyParts.LEFT_LEG] = 0.7,
-    [bodyParts.RIGHT_LEG] = 0.7
+    [bodyParts.HEAD] = 2.0, -- head
+    [bodyParts.NECK] = 1.5, -- neek
+    [bodyParts.UPPER_BODY] = 1.2, --chest
+    [bodyParts.LOWER_BODY] = 1.0, --body
+    [bodyParts.LEFT_ARM] = 0.8, --left hand
+    [bodyParts.RIGHT_ARM] = 0.8, -- left hand
+    [bodyParts.LEFT_LEG] = 0.7, --left leg
+    [bodyParts.RIGHT_LEG] = 0.7 --right leg
 }
 
 -- Event handler for when a player is damaged
