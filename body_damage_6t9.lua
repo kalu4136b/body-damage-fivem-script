@@ -14,14 +14,14 @@ local bodyParts = {
 
 -- Define additional damage multipliers for body parts(you can edit this)
 local damageMultipliers = {
-    [bodyParts.HEAD] = 2.0, -- head
-    [bodyParts.NECK] = 1.5, -- neek
-    [bodyParts.UPPER_BODY] = 1.2, --chest
+    [bodyParts.HEAD] = 2.0, -- head(2X DAMAGE)
+    [bodyParts.NECK] = 1.0, -- neek
+    [bodyParts.UPPER_BODY] = 1.5, --chest
     [bodyParts.LOWER_BODY] = 1.0, --body
-    [bodyParts.LEFT_ARM] = 0.8, --left hand
-    [bodyParts.RIGHT_ARM] = 0.8, -- left hand
-    [bodyParts.LEFT_LEG] = 0.7, --left leg
-    [bodyParts.RIGHT_LEG] = 0.7 --right leg
+    [bodyParts.LEFT_ARM] = 0.7, --left hand
+    [bodyParts.RIGHT_ARM] = 0.7, -- left hand
+    [bodyParts.LEFT_LEG] = 0.5, --left leg
+    [bodyParts.RIGHT_LEG] = 0.5 --right leg
 }
 
 -- Event handler for when a player is damaged
